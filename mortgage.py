@@ -12,6 +12,7 @@ while True:
     print('-' * 25)
     restart = input('Do you want to start over?[Y/N] ').upper()
     if 'N' in restart:
-        print('-' * 30)
+        print('-' * 25)
         print('GoodBye...')
+        print('-' * 25)
         break
